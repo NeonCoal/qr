@@ -8,9 +8,14 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     display: flex;
+    margin-top: 5rem;
 }
 
 .qr-container{
+    position: flex;
+    flex-direction: column;
+    padding: .95rem 1rem;
+    margin: auto;
     background-color: hsl(0, 0%, 100%);
     max-width: 320px;
     align-items: center;
@@ -18,7 +23,7 @@ body {
 }
 
 img {
-    border-radius: 15px;
+    border-radius: 10px;
     max-width: 100%;
     display: block;
 }
@@ -30,4 +35,5 @@ h1 {
 
 p {
     font-size: 15px;
+    color: hsl(220, 15%, 55%);
 }
